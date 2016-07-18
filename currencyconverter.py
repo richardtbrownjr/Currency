@@ -1,9 +1,14 @@
 Class CurrencyClassCon():
 
 
-currency_dictionary = {'USD':'$','ZAR':'R','EUR':'€','GBP':'£'}
 
-    def __init__(self, amount = None, currency_code):
-        if amount:
-            self.amount = amount
-            self.currency_code = currency_code
+
+    def __init__(self,amount, currency_code):
+            self.currency_converter.convert(Currency(1, 'USD'), 'USD') == Currency(1, 'USD')
+
+
+#Must be able to take a Currency object that has one currency code it knows and a
+#requested currency code and return a new Currency object with the right amount in
+#the new currency code.
+
+    def___(self,amount, currency_code):

@@ -10,7 +10,7 @@ class Currency:
         else:
             self.amount = amount(float)
 
-
+#Must be created with an amount and a currency code.
     def __eq__(self, other):
         return self.amount == other.amount and self.currency_code == other.currency_code
 
